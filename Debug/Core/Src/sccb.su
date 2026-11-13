@@ -1,0 +1,8 @@
+../Core/Src/sccb.c:9:13:sccb_delay	16	static
+../Core/Src/sccb.c:13:13:SCCB_Start	8	static
+../Core/Src/sccb.c:19:13:SCCB_Stop	8	static
+../Core/Src/sccb.c:25:16:SCCB_WriteByte	24	static
+../Core/Src/sccb.c:38:16:SCCB_ReadByte	16	static
+../Core/Src/sccb.c:52:6:SCCB_Init	8	static
+../Core/Src/sccb.c:58:9:SCCB_ReadReg	16	static
+../Core/Src/sccb.c:73:9:SCCB_WriteReg	16	static

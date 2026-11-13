@@ -1,0 +1,16 @@
+../Core/Src/main.c:133:13:GTSRB_GetLabel	3
+../Core/Src/main.c:154:6:GTSRB_AI_Init	2
+../Core/Src/main.c:177:6:GTSRB_Preprocess_Frame	5
+../Core/Src/main.c:212:5:GTSRB_Run_Inference	51
+../Core/Src/main.c:244:6:LCD_Draw_ROI_Box	3
+../Core/Src/main.c:267:6:LCD_Draw_Sign_Banner	16
+../Core/Src/main.c:325:1:__io_putchar	1
+../Core/Src/main.c:336:5:main	5
+../Core/Src/main.c:449:6:SystemClock_Config	4
+../Core/Src/main.c:505:13:MX_CRC_Init	2
+../Core/Src/main.c:531:13:MX_DCMI_Init	2
+../Core/Src/main.c:568:13:MX_SPI1_Init	2
+../Core/Src/main.c:606:13:MX_USART2_UART_Init	2
+../Core/Src/main.c:637:13:MX_DMA_Init	1
+../Core/Src/main.c:658:13:MX_GPIO_Init	1
+../Core/Src/main.c:719:6:Error_Handler	1

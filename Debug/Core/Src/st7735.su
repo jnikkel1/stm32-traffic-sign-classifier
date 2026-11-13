@@ -1,0 +1,7 @@
+../Core/Src/st7735.c:6:13:ST7735_WriteCmd	16	static
+../Core/Src/st7735.c:13:13:ST7735_WriteData	16	static
+../Core/Src/st7735.c:20:6:ST7735_Init	16	static
+../Core/Src/st7735.c:43:6:ST7735_SetWindow	32	static
+../Core/Src/st7735.c:55:6:ST7735_DrawBufferDMA	24	static
+../Core/Src/st7735.c:67:9:ST7735_IsBusy	4	static
+../Core/Src/st7735.c:72:6:HAL_SPI_TxCpltCallback	16	static

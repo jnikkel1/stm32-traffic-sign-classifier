@@ -1,0 +1,8 @@
+../Core/Src/syscalls.c:7:5:_write	1
+../Core/Src/syscalls.c:13:5:_close	1
+../Core/Src/syscalls.c:18:5:_fstat	1
+../Core/Src/syscalls.c:24:5:_isatty	1
+../Core/Src/syscalls.c:29:5:_lseek	1
+../Core/Src/syscalls.c:36:5:_read	1
+../Core/Src/syscalls.c:43:5:_getpid	1
+../Core/Src/syscalls.c:47:5:_kill	1
