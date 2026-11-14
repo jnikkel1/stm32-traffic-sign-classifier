@@ -30,7 +30,7 @@ The model was trained from scratch in Python and deployed to C using ST's X-CUBE
 | **Model Size (Flash)** | ~150 KB (INT8 Quantized) |
 | **Peak RAM (Activations)** | ~25 KB (in `.bss`) |
 | **Inference Time** | 87 ms per frame (~11.5 FPS) |
-| **Accuracy** | 99% on representative GTSRB validation track |
+| **Accuracy** | 96% on representative GTSRB validation track |
 
 ## 🔌 Hardware Pinout (Nucleo-F446RE)
 
