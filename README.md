@@ -16,7 +16,7 @@ This project required solving several low-level embedded challenges across memor
 * **Memory and Stack Optimization:** Operated within strict MCU constraints (128 KB SRAM, 512 KB Flash). Adjusted the `.ld` linker script to allocate an 8KB stack, and utilized quantized `int8` data types to shrink model size to ~150 KB.
 * **Bare-Metal UI Rendering:** Built a zero-dependency, DMA-driven 5x7 ASCII bitmap font renderer to overlay real-time classification text directly onto the SPI display's video feed buffer.
 
-## Machine Learning Pipeline
+## Machine Learning 
 The model was trained in Python and deployed to C using ST's X-CUBE-AI middleware.
 * **Dataset:** GTSRB (German Traffic Sign Recognition Benchmark), 43 classes.
 * **Architecture:** Custom VGG-style CNN (`Conv2D` -> `BatchNorm` -> `ReLU6`). Flattened spatially at a `3x3` receptive field to preserve structural layouts of pictograms (e.g., numbers, bicycles).
@@ -31,7 +31,7 @@ The model was trained in Python and deployed to C using ST's X-CUBE-AI middlewar
 | **Inference Time** | 87 ms per frame (~11.5 FPS) |
 | **Accuracy** | 96% on representative GTSRB validation track |
 
-## 🔌 Hardware Pinout (Nucleo-F446RE)
+## Hardware Pinout (Nucleo-F446RE)
 
 | Peripheral | Component Pin | STM32 Pin | Note |
 | :--- | :--- | :--- | :--- |
@@ -44,7 +44,7 @@ The model was trained in Python and deployed to C using ST's X-CUBE-AI middlewar
 | **ST7735 (SPI1)** | SCK / SDA | PA5 / PA7 | SPI Clock and MOSI |
 | | CS / DC / RST | PA4 / PA9 / PA10 | Control Pins |
 
-## 🛠️ Build Instructions
+## Build Instructions
 1. Clone this repository: `git clone https://github.com/YourUsername/stm32-traffic-sign-recognition.git`
 2. Open the `firmware/` folder as a workspace in **STM32CubeIDE**.
 3. Build the project (`Ctrl+B`) and flash to the Nucleo-F446RE.
